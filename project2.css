@@ -1,0 +1,166 @@
+body{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./ảnh\ nền.jpg);
+}
+
+#taskbars{
+    background-color: rgb(129, 177, 156);
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    position: absolute;
+    right: 5px !important;
+}
+
+#namehome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+
+}
+
+.sizeOfFn{
+    background-color: red;
+    height: 10%;
+    border: none;
+    margin-bottom: 50.573px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+    .searchdonate{
+        margin-bottom: 0px !important;
+    }
+
+#block{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .formaddfamily{
+        width: 50%;
+        height: 70%;  
+        background-color: white;
+        position: absolute;
+        opacity: 1;
+        z-index: 3;
+        /* display: none; */
+        left: 25%;
+        top: 15%;
+        border-radius: 10px;
+        overflow-y: scroll;
+    }
+        .titleform{
+            /* position: absolute; */
+            top: 0px;
+            left: 0px;
+            display: flex;
+            justify-content: center;
+            height: 15%;
+            align-items: center;
+            /* border-bottom: 1px solid black; */
+        } 
+            .titleform span{
+                font-size: 24px;
+                width: 60%;
+                border-bottom: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        .contentofform{
+            width: 100%;
+            /* height: 85%; */
+            /* background-color: blue; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            table{
+                position: relative;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+        .infopeople{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+.familybuttonadd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}        
+.buttonadd{
+    background-color: blanchedalmond;
+    width: 120px;
+    height: 30px;
+    cursor: context-menu;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonAddfamily{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonAddfamily div{
+    height: 40px;
+    width: 60px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCanceladdfamily{
+    margin-right: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(102, 137, 100, 0.75);
+    border-radius: 3px;
+}
+::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+#backgroundback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    display: none;
+}    

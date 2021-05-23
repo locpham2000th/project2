@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>quản lý thu phí</title>
+    <link rel="stylesheet" href="project2.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <script type="text/javascript" src="./jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+
+<body>
+    <div id="taskbars">
+        <div id="namehome">
+            <span>
+                Quản lý tổ dân phố số 7
+            </span>
+        </div>
+        <a href="/login" class="login">đăng xuất</a>
+    </div>
+    <div id="block">
+        <div class="addfamily sizeOfFn">Add Family</div>
+        <div class="searchfamily sizeOfFn">Search Family</div>
+        <div class="addfee sizeOfFn">Add Fee</div>
+        <div class="searchfee sizeOfFn">Search Fee</div>
+        <div class="adddonate sizeOfFn">Add Donate</div>
+        <div class="searchdonate sizeOfFn">Search Donate</div>
+    </div>
+
+
+    <div class="formaddfamily">
+        <div class="titleform">
+            <span>Thông tin của hộ gia đình</span>
+        </div>
+        <div class="contentofform">
+            <table>
+                <tr>
+                    <td>Họ tên chủ hộ:</th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh:</th>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>giới tính:</th>
+                    <td>
+                        <input type="radio" value="Nam" name="gender1">Nam
+                        <input type="radio" value="Nữ" name="gender1">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số hộ khẩu:</th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>email:</th>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>password:</th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ:</th>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+            </table>
+            <div class="infopeople">
+                <span>
+                    Thông tin nhân khẩu <span class="numberpeople">2</span>
+                </span><br>
+                <table>
+                    <tr>
+                        <td>Họ và tên:</td>
+                        <td>
+                            <input type="text">
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>Ngày sinh:</th>
+                        <td>
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>giới tính:</th>
+                        <td class="gender">
+                            <input type="radio" value="Nam" name="gender2">Nam
+                            <input type="radio" value="Nữ" name="gender2">Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Vai trò:</td>
+                        <td>
+                            <select name="vaitro" id="vaitro">
+                                <option value="Con">Con</option>
+                                <option value="Vợ/Chồng">Vợ/Chồng</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>          
+        </div>
+        <div class="familybuttonadd">
+            <div class="buttonadd">Thêm nhân khẩu</div>
+        </div> 
+        <br>
+        <div class="buttonAddfamily" >
+            <div class="buttonCanceladdfamily">
+                Cancel
+            </div>
+            <div>
+                Accept
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="backgroundback"></div>
+
+</body>
+
+</html>
